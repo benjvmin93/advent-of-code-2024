@@ -31,7 +31,7 @@ def isReportSafe(report: list[int]):
             return True
         if new_report == sorted(new_report, reverse=True) and isSafeDescending(new_report):
             return True
-            
+
     return False
             
 
